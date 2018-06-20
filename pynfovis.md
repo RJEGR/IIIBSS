@@ -138,7 +138,7 @@ leg = plt.legend()
 
 
 
-![](./python/figures/Screen Shot 2018-06-19 at 11.07.13 AM.png)
+![](/python/figures/Screen Shot 2018-06-19 at 11.07.13 AM.png)
 
 Editing plots:
 
