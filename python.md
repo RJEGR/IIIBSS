@@ -1,3 +1,5 @@
+> Teacher: Dr. Augusto César Poot Hernández
+
 "Good morning,
 
 let's open python in the flavor `iphython`
