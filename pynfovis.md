@@ -135,9 +135,8 @@ plt.ylabel('y')
 leg = plt.legend()
 
  ```
-![](./IIIBSS/python/figures/Screen Shot 2018-06-19 at 11.07.13 AM.png)
-
-![Alternate image text](https://someurl/imagelocation/image.png)
+![Figure](../python/figures/Screen Shot 2018-06-19 at 11.07.13 AM.png)
+ 
 
 Editing plots:
 
