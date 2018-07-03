@@ -2,8 +2,6 @@
 Introduction to programming in R
 --------------------------------
 
-*by Katja Nowick, University of Leipzig*
-
 > Apply approach
 
 ```R
