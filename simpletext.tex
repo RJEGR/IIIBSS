@@ -1,0 +1,69 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+
+\title{name of article}
+
+\autor[1]{Autor A\thanks{A.@university.edu}}
+\autor[1]{Autor B\thanks{A.@university.edu}}
+
+\begin{abastract}
+
+lets type the lorem ipsum.
+lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+\end{abstract}
+
+\section{First section}\label{sec:first}
+
+it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+\subsection{Subsection}
+\section*{Starred version}\label{sub:first}
+
+
+\begin{equation}
+\begin{aligned}
+2a+ 3b - 4c= 9\ notag \\
+-3a + 8b + 4c &= 33
+\end{aligned}
+\end{equation}
+
+\newpage
+
+% ~ # para forzar a las palabras a permanecer unidas
+% &
+% %
+% {}
+
+
+\begin{table}
+\centering
+\begin{tabular}{rlc} % rigth , left and center separator style. you can us r|l|c
+\toprule
+Special chart & Use & whatever \\
+%midrule
+\% & Comment to end of line blah, blah, blah \&~blah and anything \\
+\$ & Open / close math & \ $\pi$ \\
+\midrule % horizontal line separator
+it is a long established fact that a reader will be distracted by the readable content
+\end{tabular}
+
+\newpage
+Normal font \textbf{bold font} \texit{italic font} \textsc{Small Caps}
+Some \
+
+begin{figure}
+begin{center}
+\includegraphics[height=.5\textheight]{pathwherefigureAre/figure.png}
+\end{center}
+\captation{heatmap of seaborn}
+
+
+\bibliographystyle{apalike}
+\bibliography{bibliography_file}
+\end{document}
+
+As seen in ~\cite{Adam83}
+
+
+[Compile /Users/cigom/Documents/simpletext.tex]
